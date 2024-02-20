@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&family=Nanum+Gothic+Coding&family=Poppins:ital,wght@0,300;0,400;0,600;1,200&family=Readex+Pro:wght@200;400;500&display=swap');
+
+.contact{
+    height: 100vh;
+    background: #FFF4E5B5;
+}
+
+.row.connect{
+    height: 100%;
+}
+ul{
+    list-style: none;
+}
+img.icon{
+    width: 40px;
+    height: 40px;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.main img{
+    top:-19px;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.left{
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card1{
+    width: 80%;
+    background: #FECD8199;
+    border-radius: 40px;
+    padding:20px  10px;
+ 
+}
+li{
+    display: flex;
+    align-items:center ;
+    margin: 1rem 0px;
+}
+.phones{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-family:'Frank Ruhl Libre', serif ;
+}

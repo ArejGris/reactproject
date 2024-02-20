@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&family=Nanum+Gothic+Coding&family=Poppins:ital,wght@0,300;0,400;0,600;1,200&family=Readex+Pro:wght@200;400;500&display=swap');
+
+section{
+    min-height: 100vh;
+}
+.the-first-sec{
+    background: url('../assets/Rectangle 24.png') no-repeat center center ;
+    background-size: cover;
+    display: flex;
+}
+.the-first-sec .right,.the-first-sec .left{
+    position: relative;
+    flex: 1;
+}
+
+.about .right .card{
+    margin: auto;
+border-radius: 40px;
+background: #FECD8199;
+width: 80%;
+height: 60%;
+top: 50%;
+transform: translate(0%,-50%);
+padding: 10px;
+text-align: center;
+}
+.card-head{
+
+}
+.services{
+    background: #FDDDAB;
+}
+.services .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #B88E5780;
+    width: 100%;
+}
+.services .header h1{
+    font-weight: 900;
+}
+.services .header img{
+    width: 30px;
+}
+.services .service{
+    margin: auto;
+    display: flex;
+    width: 80%;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.story{
+    width: 20%;
+    height: 100%;
+    margin:0;
+}
+.story img{
+    width:100%;
+}
+.concept{
+   border-radius: 40px;
+   background: #B98155CC;
+   padding: 10px;
+   width: fit-content;
+   padding: 20px;
+   font-size: 24px;
+}
+@media screen and (max-width:700px){
+    .concept{
+        font-size: 18px;
+    }
+    
+}
+.question{
+    background: url('../assets/Rectangle 26.png')no-repeat center center;
+    background-size: cover;
+}
+.center{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center .hc{
+    font-family:  'Frank Ruhl Libre';
+    color:#372723
+}
+.center .question-section{
+    background: #FECD8199;
+    width: 100%;
+}
+.center .question-section ul{
+    list-style: none;
+
+}
+.center .question-section ul li{
+display: flex;
+flex-direction: column;
+align-items: start;
+text-align: left;
+}
+.footer .footer-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background: #B88E57;
+    color:white;
+    padding: 0px 20px;
+}
+.footer .footer-list img{
+    width: 30px;
+    margin-right: 10px;
+}

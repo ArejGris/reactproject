@@ -1,0 +1,61 @@
+.logo1{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    background: #EAD9C2;
+    transform: translate(0,-5%);
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.logo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #987F7380;
+    text-align: center;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    transform: translate(0,-5%);
+}
+.logo1 a,.logo2 a{
+    text-decoration: none;
+    color: black;
+}
+.myNav1{
+    top: 20px;
+    left: 0;
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    background: #987F7380;
+}
+.myNav2{
+    
+    background: #EAD9C2;
+    top: 20px;
+    left: 0;
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 50px;
+}
+.myNav1 .nav1,.myNav2 .nav1{
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.myNav1 .nav1 li,.myNav2 .nav1 li{
+    margin-left: 5px;
+}
+.myNav1 .nav1 a,.myNav2 .nav1 a{
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

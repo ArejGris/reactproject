@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&family=Nanum+Gothic+Coding&family=Poppins:ital,wght@0,300;0,400;0,600;1,200&family=Readex+Pro:wght@200;400;500&display=swap');
+
+.container-fluid{
+    height: 100vh;
+    background-color: #FFF4E5B5;
+}
+.row.pay{
+ height: 100%;
+}
+.credit{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.credit img{
+    position: absolute;
+    height: auto;
+    width: 80%;
+    bottom: 0px;
+    left: 0px;
+}
+h1.pay-font{
+    font-family: Frank Ruhl Libre;
+font-size: 46px;
+font-weight: 400;
+line-height: 124px;
+letter-spacing: 0em;
+text-align: center;
+color: #B88E57;
+
+}
+form.form4{
+    background:#FECD8199;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    border-radius: 40px;
+}
+.form4 .form-group{
+    position: relative;
+    width: 100%;
+    margin: 10px;
+}
+.form4 .form-group.last{
+    width: fit-content;
+}
+.form4 .form-group.last1{
+    width: 70%;
+}
+.form4 .form-group.last2{
+    width:15%
+}
+.form4 .form-group label{
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translate(0,-50%);
+    padding-left: 20px;
+
+  
+}
+.form4 .form-group input{
+    border-radius: 40px;
+    background: #FDF3E5;
+   width: 100%;
+   padding: 10px;
+   border: 1px solid black;
+}
+.firstlabel{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 10px;
+}
+.icon-img{
+    max-height: 30px;
+    right: 0px;
+}
+.btn-form{
+   display: flex;
+   justify-content: center;
+}
+.btn-submit{
+    padding: 10px 20px;
+border-radius: 40px;
+border: 1px solid gray;
+background: #B88E57;
+color: white;
+font-family:Frank Ruhl Libre ;
+font-weight: 400;
+}
+.credit2{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+a.link{
+    color: #B88E57;
+    text-decoration: none;
+}

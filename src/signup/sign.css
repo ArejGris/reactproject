@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&family=Nanum+Gothic+Coding&family=Poppins:ital,wght@0,300;0,400;0,600;1,200&family=Readex+Pro:wght@200;400;500&display=swap');
+
+
+
+.sign .sign-sec{
+  margin-top: 1rem;
+}
+.form2{
+  margin-top: 2rem;
+ width: 70%;
+   padding: 20px;
+    padding-bottom: 0px;
+   border-radius: 40px;
+   background: #FECD8199;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+  .form2 .form-group {
+    position: relative;
+    margin: 10px 0px;
+
+  }
+  .form2 .form-group label{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: #37272370;
+    font-family: Frank Ruhl Libre;
+    font-size: 26px;
+    font-weight: 900;
+  }
+  @media screen and (max-width:1100px){
+    .form2 .form-group label{
+      font-size: 20px;
+    }
+  }
+  .form2 .form-group input{
+    background: #FFFFFFB2;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 40px;
+  }
+  h1{
+    text-align: center;
+  }
+  .last{
+    display: flex;
+  }
+  .last a,.last p{
+    text-decoration: none;
+    color: white;
+    font-family:Frank Ruhl Libre ;
+    font-weight: 400;
+    text-shadow: 0px 1px 8px rgba(0,0,0,.09);
+  }
+  .last p{
+    color: black;
+  }
+
+.form2 .form-group{
+    width: 100%;
+    text-align: center;
+}
+.form2 .form-group label{
+    white-space: nowrap;
+ 
+}
+.form2 .form-group input[type='text']{
+    width: 70%;
+}
+.last{
+    justify-content: center;
+}
+.last p{
+    margin-bottom: 0px;
+}
+.img2{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.img2 img{
+  position: absolute;
+    max-width:100%;
+    max-height: 100%;
+    bottom: 0;
+    left: 0;;
+}
+.container-fluid{
+    width: 100vw;
+}
+.hh1{top: 30%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    position: absolute;
+    font-family: Frank Ruhl Libre;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&family=Nanum+Gothic+Coding&family=Poppins:ital,wght@0,300;0,400;0,600;1,200&family=Readex+Pro:wght@200;400;500&display=swap');
+
+.home{
+    background: #FFF4E5B5;
+    height: 100vh;
+
+}
+.container-fluid{
+ width: 100vw;
+}
+h1{
+    color: black;
+}
+.img{
+  position: relative;
+height: 100vh;
+}
+.img img{
+   position: absolute;
+   right: 0;
+    height: 100%;
+    max-width: 100%;
+}
+.button {
+    border: none;
+    border-radius: 39px;
+    padding:5px 30px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #B88E57;
+    cursor: pointer;
+    color: white;
+    transition: border-color 0.25s;
+  }
+  .login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .form1{
+    padding: 20px 0px;
+    
+    border-radius: 40px;
+    background: #FECD8199;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form1 .form-group {
+    position: relative;
+    margin: 10px 0px;
+
+  }
+  .form1 .form-group label{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: #37272370;
+    font-family: Frank Ruhl Libre;
+    font-size: 26px;
+    font-weight: 900;
+  }
+  .form1 .form-group input{
+    background: #FFFFFFB2;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 40px;
+  }
+  h1{
+    text-align: center;
+  }
+  .last{
+    display: flex;
+  }
+  .last a,.last p{
+    text-decoration: none;
+    color: white;
+    font-family:Frank Ruhl Libre ;
+    font-weight: 400;
+    text-shadow: 0px 1px 8px rgba(0,0,0,.09);
+  }
+  .last p{
+    color: black;
+  }
